@@ -6,5 +6,8 @@
     {"id": 5, "name": "node.js", "slug": "node-js"},
     {"id": 6, "name": "angular", "slug": "angular"},
     {"id": 7, "name": ".NET", "slug": "dot-net"},
-    {"id": 8, "name":"AWS", "slug": "aws"}
+    {"id": 8, "name":"AWS", "slug": "aws"},
+    {"id": 9, "name":"API", "slug": "api"},
+    {"id": 10, "name":"responsive", "slug": "responsive"},
+    {"id": 11, "name":"html", "slug": "html"}
 ]
