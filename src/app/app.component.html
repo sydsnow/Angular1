@@ -22,11 +22,10 @@
       </div>
       <div *ngIf="categoryFilter">
         <!-- {{ categoryFilter.name }} -->
-        <span (click)="clearFilters()">Clear</span>
+        <button (click)="clearFilters()">Clear</button>
       </div>
     </div>
-  </section>  
-
+  </section>
 </main>
 <footer>&copy; {{ author }} - {{ date }}</footer>
 
