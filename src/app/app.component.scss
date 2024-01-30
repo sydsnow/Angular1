@@ -1,9 +1,32 @@
 main {
     display: flex;
     flex-direction: column;
+    flex: 1;
     // height: 100vh;
 }
 
 #categories, #tags {
     font-size: 0.8em;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Make sure the body takes up the full height of the viewport */
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make sure the wrapper takes up at least the full height of the viewport */
+  }
+  
+  
+  footer {
+    background-color: #d6e5f3; /* Add your desired background color */
+    padding: 10px;
+    text-align: right;
+    position: sticky;
+    bottom: 0;
+  }
+  
