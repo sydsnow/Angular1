@@ -6,13 +6,18 @@
     <main>
       <section class="filter">
         <div class="filters-section">
-          <div class="categories">Filter:
+          <div class="categories">
+            Categories:
             <div *ngFor="let category of categories"
               [class.active]="isCategoryFilterActive(category)"
               (click)="setCategoryFilter(category)"
               class="btn btn-outline-primary"
               id="filter-buttons">
               {{ category.name }}
+            </div>
+            <br>Tags:
+            <div *ngFor="let tag of tags" class="btn btn-outline-primary" id="filter--tags-buttons">
+              {{ tag.name }}
             </div>
           </div>
           <div *ngIf="categoryFilter">

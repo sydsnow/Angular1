@@ -54,6 +54,7 @@ export class AppComponent {
     this.categories = CATEGORIES;
     this.projects = PROJECTS;
     this.filteredProjects = this.projects;
+    this.tags = TAGS;
   }
 }
 
