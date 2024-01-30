@@ -7,7 +7,6 @@
       <section class="filter">
         <div class="filters-section">
           <div class="categories">
-            <p>Filter:</p>
             <div *ngFor="let category of categories"
               [class.active]="isCategoryFilterActive(category)"
               (click)="setCategoryFilter(category)"
@@ -21,14 +20,19 @@
           </div>
         </div>
       </section>
-      <section class="projects-container">
-        <div *ngFor="let project of filteredProjects" class="projects">
+      <section>
+        <div *ngFor="let project of filteredProjects">
           <h3>{{ project.title }}</h3>
           <p>{{ project.excerpt }}</p>
-          <p *ngIf="project.category" id="categories">Category: {{ project.category.name }}</p>
+          
+          <!-- Make category clickable -->
+          <p *ngIf="project.category" id="categories" (click)="setCategoryFilter(project.category)">
+            Category: {{ project.category.name }}
+          </p>
+          
           <p *ngIf="project.tags && project.tags.length > 0" id="tags">
             Tags:
-            <span *ngFor="let tag of project.tags; let last = last" >
+            <span *ngFor="let tag of project.tags; let last = last">
               {{ tag.name }}{{ !last ? ', ' : '' }}
             </span>
           </p>

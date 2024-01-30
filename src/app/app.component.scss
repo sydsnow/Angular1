@@ -45,6 +45,16 @@ header {
 #categories, #tags {
     font-size: 0.8em;
 }
+
+#categories {
+    cursor: pointer;
+    text-decoration: underline; /* Underline the text to indicate clickable */
+  }
+  
+  #categories:hover {
+    text-decoration: none; /* Remove underline on hover*/
+  }
+
 .projects {
     padding: 20px;
 }
