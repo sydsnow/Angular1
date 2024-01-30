@@ -2,7 +2,7 @@ main {
     display: flex;
     flex-direction: column;
     flex: 1;
-    // height: 100vh;
+    padding: 15px;
 }
 
 #categories, #tags {
@@ -12,7 +12,7 @@ main {
 body {
     margin: 0;
     padding: 0;
-    height: 100vh; /* Make sure the body takes up the full height of the viewport */
+    min-height: 100vh; /* Make sure the body takes up the full height of the viewport */
   }
   
   .wrapper {
@@ -29,4 +29,33 @@ body {
     position: sticky;
     bottom: 0;
   }
-  
+
+header {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.filter {
+    // margin-top: 15px;
+    margin-bottom: 15px;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    padding: 15px;
+}
+
+#categories, #tags {
+    font-size: 0.8em;
+}
+.projects {
+    padding: 20px;
+}
+@media (min-width: 1024px) {
+    .projects-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 1280px) {
+    .projects-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
