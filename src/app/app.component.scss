@@ -1,0 +1,9 @@
+main {
+    display: flex;
+    flex-direction: column;
+    // height: 100vh;
+}
+
+#categories, #tags {
+    font-size: 0.8em;
+}
