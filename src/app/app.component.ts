@@ -37,6 +37,7 @@ export class AppComponent {
     this.date = '2021-09-20';
     this.categories = CATEGORIES;
     this.projects = PROJECTS;
+    this.tags = TAGS;
   }
 }
 
@@ -75,6 +76,13 @@ const CATEGORIES: Category[] = [
   { "id": 2, "slug": "front-end", "name": "Front End" },
   { "id": 3, "slug": "full-stack", "name": "Full Stack" }
 ];
+
+const TAGS: Tag[] = [
+  {"id":1,"name":"Laravel","slug":"laravel"},
+  {"id":2,"name":"PHP","slug":"php"},
+  {"id":3,"name":"Docker","slug":"docker"}
+];
+
 const PROJECTS: Project[] = [
   {
     "id": 1,

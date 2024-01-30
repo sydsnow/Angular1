@@ -7,7 +7,14 @@
     <div *ngFor="let project of projects">
       <h3>{{ project.title }}</h3>
       <p>{{ project.excerpt }}</p>
-      <p *ngIf="project.category">Category: {{ project.category?.name }}</p>
+      <p *ngIf="project.category">Category: {{ project.category.name }}</p>
+      <!-- Check if the project has tags before rendering -->
+      <p *ngIf="project.tags && project.tags.length > 0">
+        Tags:
+        <span *ngFor="let tag of project.tags; let last = last">
+          {{ tag.name }}{{ !last ? ', ' : '' }}
+        </span>
+      </p>
     </div>
   </section>
 </main>
