@@ -3,20 +3,6 @@
 </header>
 <main>
   <section>
-    <div *ngFor="let project of filteredProjects">
-      <h3>{{ project.title }}</h3>
-      <p>{{ project.excerpt }}</p>
-      <p *ngIf="project.category" id="categories">Category: {{ project.category.name }}</p>
-      <p *ngIf="project.tags && project.tags.length > 0" id="tags">
-        Tags:
-        <span *ngFor="let tag of project.tags; let last = last" >
-          {{ tag.name }}{{ !last ? ', ' : '' }}
-        </span>
-      </p>
-    </div>
-  </section>
-
-  <section>
     <div class="filters-section">
       <div class="categories">
         <p>Filter:</p>
@@ -31,6 +17,19 @@
         <!-- {{ categoryFilter.name }} -->
         <button (click)="clearFilters()" class="btn btn-danger">Clear</button>
       </div>
+    </div>
+  </section>
+  <section>
+    <div *ngFor="let project of filteredProjects">
+      <h3>{{ project.title }}</h3>
+      <p>{{ project.excerpt }}</p>
+      <p *ngIf="project.category" id="categories">Category: {{ project.category.name }}</p>
+      <p *ngIf="project.tags && project.tags.length > 0" id="tags">
+        Tags:
+        <span *ngFor="let tag of project.tags; let last = last" >
+          {{ tag.name }}{{ !last ? ', ' : '' }}
+        </span>
+      </p>
     </div>
   </section>
 </main>
