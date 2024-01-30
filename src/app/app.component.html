@@ -15,14 +15,15 @@
       <div class="categories">
         <p>Filter:</p>
         <div *ngFor="let category of categories"
-             [class.active]="isCategoryFilterActive(category)"
-             (click)="setCategoryFilter(category)">
-          {{ category.name }}
-        </div>
+           [class.active]="isCategoryFilterActive(category)"
+           (click)="setCategoryFilter(category)"
+           class="btn btn-outline-primary">
+        {{ category.name }}
+      </div>
       </div>
       <div *ngIf="categoryFilter">
         <!-- {{ categoryFilter.name }} -->
-        <button (click)="clearFilters()">Clear</button>
+        <button (click)="clearFilters()" class="btn btn-danger">Clear</button>
       </div>
     </div>
   </section>
