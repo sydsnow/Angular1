@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import CATEGORIES from '../data/categories.json';
 import PROJECTS from '../data/projects.json';
+import TAGS from '../data/tags.json';
 
 @Component({
   selector: 'app-root',
@@ -12,11 +13,12 @@ import PROJECTS from '../data/projects.json';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular - Assignment 1';
+  title = 'Angular - Assignment 1';
   date: string | null = null;
   author: string | null = null;
   categories: Category[] | undefined;
   projects: Project[] | undefined;
+  tags: Tag[] | undefined;
   categoryFilter: Category | undefined;
   filteredProjects: Project[] | undefined;
 
@@ -61,6 +63,12 @@ export class Category {
   slug!: string;
 }
 
+export class Tag {
+  id!: number;
+  name!: string;
+  slug!: string;
+}
+
 export class Project {
   'id': number;
   'title': string;
@@ -75,4 +83,5 @@ export class Project {
   'created_at': string;
   'updated_at': string;
   'category': Category | null;
+  'tags': Tag[];
 }
