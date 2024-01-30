@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "title": "Portfolio Showcase",
-    "slug": "portfolio-showcase",
-    "excerpt": "A vitae eius numquam amet. Fuga quo illum ipsam odio et.",
-    "body": "<p>Ea error fugit cumque non exercitationem non. Molestias et deserunt ad suscipit quis. Rerum voluptatem saepe aperiam assumenda.</p></p>Saepe tenetur nihil quia quidem nemo. Sequi similique iure ullam facilis. Molestias occaecati veritatis provident.</p></p>Adipisci expedita distinctio libero ea. Nulla quam minus beatae voluptate laudantium quis eos. Fugit ullam ut perferendis quia dignissimos. Blanditiis iste et voluptas magni. Voluptate eos qui quaerat iure eius est aut.</p></p>Quisquam est voluptatum aut cupiditate molestias. Explicabo consequuntur nostrum et et non neque. Consequatur sed est sed blanditiis voluptatem nihil.</p>",
+    "title": "Piece News",
+    "slug": "piece-news",
+    "excerpt": "Piece News is a cutting-edge front-end news site designed to deliver a seamless and visually engaging experience for users. With its modern design, intuitive navigation, and responsive layout, Piece News keeps readers informed with the latest news while providing an aesthetically pleasing platform for exploring a diverse range of topics.",
+    "body": "<p>Welcome to Piece News, a dynamic front-end news site that redefines the way users interact with current events. Our platform boasts a sophisticated design, offering a visually compelling and user-friendly experience. Piece News is committed to providing an immersive and informative journey through the latest news stories. With its intuitive navigation, responsive layout, and diverse range of topics, readers can explore and engage with news content like never before. Stay connected, stay informed – Piece News is your gateway to a modern and enriched news-reading experience.</p>",
     "url": null,
     "published_date": null,
     "image": null,
@@ -12,34 +12,18 @@
     "category_id": 3,
     "created_at": "2023-02-23T22:31:23.000000Z",
     "updated_at": "2023-02-23T22:31:23.000000Z",
-    "category": { "id": 3, "slug": "full-stack", "name": "Full Stack" },
+    "category":   { "id": 2, "slug": "front-end", "name": "Front End" },
     "tags": [
-      {
-        "id": 1,
-        "name": "Laravel",
-        "slug": "laravel",
-        "pivot": { "projects_id": 1, "tags_id": 1 }
-      },
-      {
-        "id": 2,
-        "name": "PHP",
-        "slug": "php",
-        "pivot": { "projects_id": 1, "tags_id": 2 }
-      },
-      {
-        "id": 3,
-        "name": "Docker",
-        "slug": "docker",
-        "pivot": { "projects_id": 1, "tags_id": 3 }
-      }
+      {"id": 1, "name": "javascript", "slug": "javascript"},
+      {"id": 3, "name": "scss", "slug": "scss"}
     ]
   },
   {
     "id": 2,
-    "title": "SSD Yearbook",
-    "slug": "ssd-yearbook",
-    "excerpt": "Nostrum voluptatem est esse culpa amet nemo. Earum ea rerum id repudiandae esse quasi et.",
-    "body": "<p>Velit perspiciatis tenetur aspernatur cum qui facilis. Quos tempora omnis harum corporis. Cumque quisquam ea cumque aut sed eius. Ut mollitia architecto eaque tempora ab sit alias.</p></p>Recusandae id non sunt voluptatem. Aut et ab et nihil. At unde recusandae ea molestias dignissimos quisquam molestias.</p></p>Dolore qui recusandae non. Non omnis vel similique ullam odit maiores. Libero in consequatur quia dolores. Unde aliquam hic mollitia.</p>",
+    "title": "SIPS",
+    "slug": "sips",
+    "excerpt": "Welcome to Sips, where the world of bubble tea meets the sophistication of technology. Our .NET-powered app brings the delightful experience of sipping on your favorite bubble tea to your fingertips. Explore a diverse menu of refreshing flavors, customize your drinks with ease, and order with the convenience of modern technology. Savor the fusion of traditional bubble tea craftsmanship and cutting-edge .NET innovation. At Sips, we're not just serving bubble tea; we're crafting a digital journey for tea enthusiasts.",
+    "body": "<p>Step into the world of Sips, where the ancient art of brewing tea intertwines with the precision of modern technology. Our .NET app redefines your bubble tea experience, offering a seamless blend of flavors and innovation. Navigate our menu effortlessly, personalize your drinks to perfection, and enjoy the convenience of placing your order through our intuitive app. With Sips, every sip tells a story, merging the rich tradition of bubble tea with the efficiency of .NET sophistication. Indulge in the future of tea enjoyment at Sips.</p>",
     "url": null,
     "published_date": null,
     "image": null,
@@ -47,8 +31,11 @@
     "category_id": 1,
     "created_at": "2023-02-23T22:31:23.000000Z",
     "updated_at": "2023-02-23T22:31:23.000000Z",
-    "category": { "id": 1, "slug": "back-end", "name": "Back End" },
-    "tags": []
+    "category":   { "id": 2, "slug": "front-end", "name": "Front End" },
+    "tags": [
+      {"id": 7, "name": ".NET", "slug": "dot-net"},
+      {"id": 2, "name": "css", "slug": "css"}
+    ]
   },
   {
     "id": 3,
@@ -116,9 +103,9 @@
   },
   {
     "id": 7,
-    "title": "Android App",
-    "slug": "android-app",
-    "excerpt": "Omnis odio repudiandae cupiditate consequatur facilis et rem. Quas dolor ab quo aperiam.",
+    "title": "Express-Invoices",
+    "slug": "express-invoices",
+    "excerpt": "Experience seamless invoice management with my Node.js app, offering full CRUD functionality for effortless control over your financial transactions. With built-in authentication and authorization, rest easy knowing that your sensitive data is secure, while enjoying the simplicity of navigating through your invoices. Elevate your financial workflow with the power of Node.js innovation at your fingertips.",
     "body": "<p>Est et quia ipsam odio voluptatem fuga ducimus. Non illo vitae sed commodi ut. Tempora commodi tenetur velit incidunt ullam.</p></p>Id cum saepe asperiores voluptas quidem quos. Ipsum facilis illum voluptate asperiores.</p></p>Mollitia reprehenderit autem molestias. Sed quia officia velit non sunt. Esse delectus consequatur minus laboriosam laudantium alias. Qui commodi est assumenda accusamus.</p>",
     "url": null,
     "published_date": null,
@@ -127,15 +114,18 @@
     "category_id": null,
     "created_at": "2023-02-23T22:31:23.000000Z",
     "updated_at": "2023-02-23T22:31:23.000000Z",
-    "category": null,
-    "tags": []
+    "category":   { "id": 1, "slug": "back-end", "name": "Back End" },
+    "tags": [
+      {"id": 5, "name": "node.js", "slug": "node-js"},
+      {"id": 2, "name": "css", "slug": "css"}
+    ]
   },
   {
     "id": 8,
-    "title": "Industry Project",
-    "slug": "industry-project",
-    "excerpt": "Iure ratione nemo cumque. Aliquid esse soluta provident consequatur velit ut architecto.",
-    "body": "<p>Deleniti rerum labore sint quibusdam. Expedita ea reiciendis molestiae et amet repellendus autem voluptates. Aut qui voluptas ullam suscipit necessitatibus libero veritatis.</p></p>Pariatur voluptatum quia at quod. Quod quisquam qui commodi. Autem quae sequi minus iste.</p></p>Id atque magnam dolorem minus omnis aut accusantium. Et maxime blanditiis asperiores itaque sit qui culpa est. Consequatur esse excepturi suscipit ea et est corporis. Iure earum dolorum pariatur id.</p></p>Quia dicta quis libero eos odio expedita. In blanditiis doloribus natus ullam expedita est. Sed voluptatibus rerum distinctio voluptate assumenda vel cum.</p></p>Provident ut ipsam minus eos. Quaerat est tempore architecto sint. Vitae deserunt ullam corrupti asperiores sit quia facilis.</p></p>Quia minus ut qui cum odio error dolor quia. Rerum minus molestias voluptatum et eius consequatur. Autem quis et molestiae quidem provident voluptas fuga vel. Voluptatibus quas accusantium doloremque dolores deleniti eum.</p>",
+    "title": "GuessQuest",
+    "slug": "guessquest",
+    "excerpt": "Embark on a high-low guessing game, where intuition and luck collide in predicting if the next number is higher or lower. Experience the suspense of this classic challenge in a simple yet thrilling numerical adventure.",
+    "body": "<p>Welcome to GuessQuest! Your goal: discover the secret number in your chosen difficulty level. Receive feedback, refine your guesses, and earn points - 5 for less than 10 turns, 3 for less than 20 turns, and 1 for more than 20 turns. Keep playing until you crack the code. Best of luck!</p>",
     "url": null,
     "published_date": null,
     "image": null,
@@ -143,7 +133,10 @@
     "category_id": 3,
     "created_at": "2023-02-23T22:31:23.000000Z",
     "updated_at": "2023-02-23T22:31:23.000000Z",
-    "category": { "id": 3, "slug": "full-stack", "name": "Full Stack" },
-    "tags": []
+    "category":   { "id": 2, "slug": "front-end", "name": "Front End" },
+    "tags": [
+      {"id": 1, "name": "javascript", "slug": "javascript"},
+      {"id": 2, "name": "css", "slug": "css"}
+    ]
   }
 ]

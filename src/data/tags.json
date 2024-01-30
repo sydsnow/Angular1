@@ -1,1 +1,10 @@
-[{"id":1,"name":"Laravel","slug":"laravel"},{"id":2,"name":"PHP","slug":"php"},{"id":3,"name":"Docker","slug":"docker"}]
+[
+    {"id": 1, "name": "javascript", "slug": "javascript"},
+    {"id": 2, "name": "css", "slug": "css"},
+    {"id": 3, "name": "scss", "slug": "scss"},
+    {"id": 4, "name": "react", "slug": "react"},
+    {"id": 5, "name": "node.js", "slug": "node-js"},
+    {"id": 6, "name": "angular", "slug": "angular"},
+    {"id": 7, "name": ".NET", "slug": "dot-net"},
+    {"id": 8, "name":"AWS", "slug": "aws"}
+]
